@@ -9,66 +9,59 @@ $barcode: 'Libre Barcode 128 Text', cursive;
 $word: 'Cuprum', sans-serif;
 
 
-* {position: relative;}
-
-body {
+* {
+	position: relative;
 	margin: 0;
 	padding: 0;
 }
 
 .banner {
-	height: 240px;
-	width: 100%;
 	background-color: rgb(0, 0, 0);
-	text-align: center;
-}
-
-#logo {
-	display: inline-block;
-	box-sizing: border-box;
-	height: 50%;
-	padding-top: 10px;
-	padding-bottom: 10px;
-
-	font-family: $barcode;
-	font-size: 45px;
-	line-height: 1.2em;
-	color: white;
-
-	/* Debugging */
-	border: 2px solid green;
-}
-
-#navigation {
-	
-	box-sizing: border-box;
-	height: 100px;
-	color: white;
-	font-family: $word;
-	font-size: 30px;
-
-	position: relative;
-	padding: 0;
+	height: auto;
+	width: 95%;
 	margin: auto;
-	list-style-type: none;
-	
-	li {
-		
+	text-align: center;
+	position: relative;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	color: white;
+
+	#logo {
 		display: inline-block;
-		width: 30%;
-		max-width: 400px;
-		min-width: 300px;
-		margin: 15px auto;
-		
-	
-		/* Debugging */
-		border: 2px solid blue;
+		padding: 22px;
+		margin-top: 15px;
+		height: auto;
+		font-family: $barcode;
+		font-size: 56px;
+		line-height: 1.2em;
+
+		&:hover{
+			padding: 20px;
+			text-decoration: none;
+			border: 2px solid white;
+		}
 
 	}
 
-	/* Debugging */
-	border: 2px solid yellow;
+	li {
+		display: inline-block;
+	  	font-family: $word;
+	 	font-size: 24px;
+	  	font-weight: 100;
+	  	letter-spacing: 2px;
+	  	margin: 20px;
+	  	text-transform: uppercase;
+	}
 
+	a {
+		color: white;
+		text-decoration: none;
+
+		&:hover{
+			text-decoration: underline;
+		}
+	}
 }
 
 

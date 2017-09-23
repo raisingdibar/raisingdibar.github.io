@@ -16,6 +16,7 @@ $word: 'Cuprum', sans-serif;
 }
 
 .banner {
+
 	background-color: rgb(0, 0, 0);
 	height: auto;
 	width: 95%;
@@ -28,6 +29,7 @@ $word: 'Cuprum', sans-serif;
 	color: white;
 
 	#logo {
+
 		display: inline-block;
 		padding: 22px;
 		margin-top: 15px;
@@ -37,14 +39,17 @@ $word: 'Cuprum', sans-serif;
 		line-height: 1.2em;
 
 		&:hover{
+
 			padding: 20px;
 			text-decoration: none;
 			border: 2px solid white;
+
 		}
 
 	}
 
 	li {
+
 		display: inline-block;
 	  	font-family: $word;
 	 	font-size: 24px;
@@ -52,16 +57,21 @@ $word: 'Cuprum', sans-serif;
 	  	letter-spacing: 2px;
 	  	margin: 20px;
 	  	text-transform: uppercase;
+
 	}
 
 	a {
+
 		color: white;
 		text-decoration: none;
 
 		&:hover{
+
 			text-decoration: underline;
 			/*Fixing commit. */
+
 		}
+
 	}
 }
 

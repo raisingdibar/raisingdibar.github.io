@@ -1,0 +1,58 @@
+---
+---
+
+body, html {
+
+	background-color: black;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+
+}
+
+#portal {
+
+	/* Style the end-point for the bar here. */
+	position: relative;
+	top: 5%;
+	width: 20%;
+	height: 5%;
+	border: 5px solid white;
+	text-align: center;
+	margin: auto;
+
+}
+
+#dibar {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    top: 40%;
+    //z-index: 9;
+    //border: 5px solid white;
+    //text-align: center;
+    cursor: move;
+}
+
+#dibarframe {
+	box-sizing: border-box;
+	position: absolute;
+	top: 70%;
+    z-index: 8;
+    border: 5px solid white;
+    cursor: move;
+    width: 100%;
+    height: 10%;
+}
+
+#instruction {
+
+	/* Instructions to "raise di bar" go here, at bottom of page. */
+	position: relative;
+	height: 10%;
+	top: 80%;
+	border: 5px solid white;
+
+}

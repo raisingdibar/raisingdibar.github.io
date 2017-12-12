@@ -1,0 +1,24 @@
+# All of the site's navigation structure is represented below.
+
+topnav:
+
+  - title: Home
+    link:  /
+    
+  - title: About
+    link:  /about/
+    
+  - title: Blog
+    link:  /blog/
+    
+  - title: Logo
+    
+  - title: Portfolio
+    link:  /portfolio/
+    
+  - title: CV
+    link:  /cv/
+    
+  - title: Contact
+    link:  /contact/
+

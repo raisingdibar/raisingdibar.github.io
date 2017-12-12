@@ -1,0 +1,19 @@
+<div class="banner">
+
+    <ul id="navigation">
+        {% for section in site.data.navigation_links.topnav %}
+            {% if section.title == "Logo" %}
+                <li>
+                    <a id="logo" href="{{ site.url }}">raising<br/>di bar</a>
+                </li>
+            {% else %}
+                <li>
+                    <a href="{{section.link}}">{{ section.title}}</a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    
+    <hr class = horizontal_line/>
+                
+</div>

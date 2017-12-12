@@ -1,0 +1,53 @@
+sections:
+  
+  - title: Banner #1
+    call-to-action-head: "WANT TO WATCH YOUR SOFTWARE IDEA BLOSSOM?"
+    call-to-action-body: "Schedule a Free Consultation with the Roots & Ladders Team"
+    button-text: "PLANT A SEED"
+    
+  - title: Brief Bio
+    description: "We put confidence within reach. Augment your team with today's top collegiate Engineers."
+    button-text: "Read More"
+    
+  - title: Services Overview
+    description: We engineer ground-up solutions for your software needs. We tailor to your design & development needs. #Edit this.
+    subfolderitems:
+    
+      - title: Consulting
+      
+      - title: Business Planning
+      
+      - title: Design
+      
+      - title: Develop
+      
+      - title: Integrate & Scale
+      
+  - title: The Organic Digital Agency
+    description2: "DESCRIPTION HERE"
+    description2: "MORE"
+    button: "Read More"
+    
+  - title: Portfolio
+    description: "Our Projects"
+    button: "See Complete Portfolio"
+    subfolderitems:
+    
+      - title: "Full-Functionality Android App MVP"
+        status: "Unreleased"
+        responsible: "R&L Team"
+        thumbnail: "url.here.jpg"
+        description: "This applicaition ... "
+        button: "See More"
+        
+      - title: "'911 Find Me' Android App"
+        responsible: "Chuck H."
+        
+      - title: "JavaFX Solar System Simulator"
+        responsible: "Tyler D. + Gabe G."
+
+  - title: "Grow Your Career"
+    description: "Do you want to work? Swag."
+    button: "Contact Us"
+
+

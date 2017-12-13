@@ -4,6 +4,15 @@
 //Google Fonts
 @import url(https://fonts.googleapis.com/css?family=Cuprum|Libre+Barcode+128+Text);
 
+//Mixins
+@mixin setwidth($ratio) {
+    width: (1/$ratio) * 100%;
+}
+@mixin settext($ratio) {
+    font-size: 30px;
+    font-size: 50vw;
+}
+
 //Font Variables
 $barcode: 'Libre Barcode 128 Text', cursive;
 $word: 'Cuprum', sans-serif;
@@ -15,9 +24,25 @@ $word: 'Cuprum', sans-serif;
 	padding: 0;
 }
 
+.yeet {
+    display: block;
+    position: absolute;
+    top: 200px;
+    border: 2px solid yellow;
+    $yeet_e: 2.718281828459;
+    @include setwidth($yeet_e);
+    @include settext($yeet_e);
+    color: black;
+    height: auto;
+	margin: auto;
+	text-align: center;
+	position: fixed;
+    
+}
+
 .banner {
 
-	//background-color: rgb(0, 0, 0);
+	background-color: #fff;
 	height: auto;
 	width: 100%;
 	margin: auto;
@@ -71,4 +96,6 @@ $word: 'Cuprum', sans-serif;
 		}
 	}
 }
+
+
 

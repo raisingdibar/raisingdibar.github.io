@@ -5,9 +5,6 @@ navname: home
 permalink: /
 ---
 
-HOME
-
-
-
-
-HOME
+<div class="yeet">
+    YEEEEEEEEEEEEt
+</div>
